@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.assignment5android8.AddUserActivity">
+    <item
+        android:id="@+id/display"
+        android:title="@string/display"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/clearDatabase"
+        android:title="@string/clearDatabase"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+</menu>
